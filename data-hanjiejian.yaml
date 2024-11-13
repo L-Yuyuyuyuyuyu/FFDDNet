@@ -1,0 +1,15 @@
+#dataset path 数据集路径
+
+
+####################################### Hanjiejian 小服务器########################################
+train: /home/linzeyu/programs/experiments/ultralytics-main-05.23/dataset/hanjiejian/images/train
+val: /home/linzeyu/programs/experiments/ultralytics-main-05.23/dataset/hanjiejian/images/val
+test: /home/linzeyu/programs/experiments/ultralytics-main-05.23/dataset/hanjiejian/images/test
+#
+######################################### Hanjiejian  数据集类别#######################################
+#number of classes 数据集类别的数量
+nc: 6
+#class names
+#names: ['3_yueyawan', '9_zhehen', '4_shuiban', '2_hanfeng', '5_youban', '1_chongkong']
+names: ['Crescent_gap', 'Crease', 'Water_spot', 'Welding_line', 'Oil_spot', 'Punching']
+#

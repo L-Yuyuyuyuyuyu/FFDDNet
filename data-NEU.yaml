@@ -1,0 +1,20 @@
+#dataset path 数据集路径
+######################################## NEU-DET 小服务器   1  or  2   ########################################
+train: /home/linzeyu/programs/experiments/ultralytics-main-05.23/dataset/NEU-DET1/images/train
+val: /home/linzeyu/programs/experiments/ultralytics-main-05.23/dataset/NEU-DET1/images/val
+test: /home/linzeyu/programs/experiments/ultralytics-main-05.23/dataset/NEU-DET1/images/test
+
+####################################### NEU-DET 大服务器########################################
+#train: D:\linzeyu\Experiment\ultralytics-main-05.23\ultralytics-main-05.23\dataset\NEU-DET1\images\train
+#val: D:\linzeyu\Experiment\ultralytics-main-05.23\ultralytics-main-05.23\dataset\NEU-DET1\images\val
+#test: D:\linzeyu\Experiment\ultralytics-main-05.23\ultralytics-main-05.23\dataset\NEU-DET1\images\test
+
+######################################## NEU-DET 数据集类别#######################################
+##number of classes 数据集类别的数量
+nc: 6
+#class names
+#   NEU-DET1
+names: ['crazing', 'inclusion', 'patches', 'pitted_surface', 'rolled-in_scale', 'scratches']
+##   NEU-DET2
+##names: ['crazing', 'patches', 'inclusion', 'pitted_surface', 'rolled-in_scale', 'scratches']
+
